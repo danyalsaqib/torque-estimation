@@ -1,0 +1,17 @@
+# link 1: https://github.com/aubrune/reachy_description
+link 1 has descriptions of xacros, that can get me real-time URDF descriptions of the robot.
+
+# link 2: https://github.com/stack-of-tasks/pinocchio
+link 2 is the link to the library, pinocchio, which builds on top of rbdl to provide efficient rigid-body algorithms. Seems to be much better than rbdl, because it does handle rotation of body frames as well.
+
+The next steps are as follows:
+
+a)
+1. Make a new ROS node, that subscribes to the /joint_states topic
+2. Perform differences, generate joint velocities and accelerations
+3. Publish to new ROS Topic /joint_vel_acc
+
+b)
+1. Make a new ROS node, that subscribes to the /joint_states and /joint_vel_acc topics
+2. Perform inverse dynamics computations using the pinocchio library, and obtain torque estimations
+3. Publish to new ROS Topic /torque_estimation
