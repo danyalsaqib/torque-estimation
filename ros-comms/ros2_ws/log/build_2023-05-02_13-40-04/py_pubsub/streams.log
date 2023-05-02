@@ -1,0 +1,43 @@
+[1.958s] Invoking command in '/mnt/d/coding_stuff/torque-estimation/ros-comms/ros2_ws/src/py_pubsub': PYTHONPATH=/mnt/d/coding_stuff/torque-estimation/ros-comms/ros2_ws/build/py_pubsub/prefix_override:/mnt/d/coding_stuff/torque-estimation/ros-comms/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /mnt/d/coding_stuff/torque-estimation/ros-comms/ros2_ws/build/py_pubsub/build install --record /mnt/d/coding_stuff/torque-estimation/ros-comms/ros2_ws/build/py_pubsub/install.log --single-version-externally-managed
+[2.714s] running egg_info
+[2.719s] creating ../../build/py_pubsub/py_pubsub.egg-info
+[2.722s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[2.733s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[2.739s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[2.745s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[2.749s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[2.756s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[2.788s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[2.835s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[2.838s] running build
+[2.839s] running build_py
+[2.868s] creating /mnt/d/coding_stuff/torque-estimation/ros-comms/ros2_ws/build/py_pubsub/build
+[2.869s] creating /mnt/d/coding_stuff/torque-estimation/ros-comms/ros2_ws/build/py_pubsub/build/lib
+[2.870s] creating /mnt/d/coding_stuff/torque-estimation/ros-comms/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[2.871s] copying py_pubsub/publisher_member_function.py -> /mnt/d/coding_stuff/torque-estimation/ros-comms/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[2.896s] copying py_pubsub/subscriber_member_function.py -> /mnt/d/coding_stuff/torque-estimation/ros-comms/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[2.915s] copying py_pubsub/__init__.py -> /mnt/d/coding_stuff/torque-estimation/ros-comms/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[2.926s] running install
+[2.928s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.929s]   warnings.warn(
+[2.930s] running install_lib
+[2.948s] creating /mnt/d/coding_stuff/torque-estimation/ros-comms/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[2.962s] copying /mnt/d/coding_stuff/torque-estimation/ros-comms/ros2_ws/build/py_pubsub/build/lib/py_pubsub/publisher_member_function.py -> /mnt/d/coding_stuff/torque-estimation/ros-comms/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[2.992s] copying /mnt/d/coding_stuff/torque-estimation/ros-comms/ros2_ws/build/py_pubsub/build/lib/py_pubsub/subscriber_member_function.py -> /mnt/d/coding_stuff/torque-estimation/ros-comms/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[3.020s] copying /mnt/d/coding_stuff/torque-estimation/ros-comms/ros2_ws/build/py_pubsub/build/lib/py_pubsub/__init__.py -> /mnt/d/coding_stuff/torque-estimation/ros-comms/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[3.050s] byte-compiling /mnt/d/coding_stuff/torque-estimation/ros-comms/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/publisher_member_function.py to publisher_member_function.cpython-310.pyc
+[3.105s] byte-compiling /mnt/d/coding_stuff/torque-estimation/ros-comms/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/subscriber_member_function.py to subscriber_member_function.cpython-310.pyc
+[3.140s] byte-compiling /mnt/d/coding_stuff/torque-estimation/ros-comms/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/__init__.py to __init__.cpython-310.pyc
+[3.168s] running install_data
+[3.174s] creating /mnt/d/coding_stuff/torque-estimation/ros-comms/ros2_ws/install/py_pubsub/share/ament_index
+[3.177s] creating /mnt/d/coding_stuff/torque-estimation/ros-comms/ros2_ws/install/py_pubsub/share/ament_index/resource_index
+[3.179s] creating /mnt/d/coding_stuff/torque-estimation/ros-comms/ros2_ws/install/py_pubsub/share/ament_index/resource_index/packages
+[3.188s] copying resource/py_pubsub -> /mnt/d/coding_stuff/torque-estimation/ros-comms/ros2_ws/install/py_pubsub/share/ament_index/resource_index/packages
+[3.207s] copying package.xml -> /mnt/d/coding_stuff/torque-estimation/ros-comms/ros2_ws/install/py_pubsub/share/py_pubsub
+[3.218s] running install_egg_info
+[3.234s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /mnt/d/coding_stuff/torque-estimation/ros-comms/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info
+[3.443s] running install_scripts
+[3.523s] Installing listener script to /mnt/d/coding_stuff/torque-estimation/ros-comms/ros2_ws/install/py_pubsub/lib/py_pubsub
+[3.531s] Installing talker script to /mnt/d/coding_stuff/torque-estimation/ros-comms/ros2_ws/install/py_pubsub/lib/py_pubsub
+[3.563s] writing list of installed files to '/mnt/d/coding_stuff/torque-estimation/ros-comms/ros2_ws/build/py_pubsub/install.log'
+[3.606s] Invoked command in '/mnt/d/coding_stuff/torque-estimation/ros-comms/ros2_ws/src/py_pubsub' returned '0': PYTHONPATH=/mnt/d/coding_stuff/torque-estimation/ros-comms/ros2_ws/build/py_pubsub/prefix_override:/mnt/d/coding_stuff/torque-estimation/ros-comms/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /mnt/d/coding_stuff/torque-estimation/ros-comms/ros2_ws/build/py_pubsub/build install --record /mnt/d/coding_stuff/torque-estimation/ros-comms/ros2_ws/build/py_pubsub/install.log --single-version-externally-managed
