@@ -8,6 +8,18 @@ So far, I have developed two packages within the workspace. The first one, 'torq
 ## The Setup
 This is just additional information regarding ROS 2, and the setup beforehand for this package. This part should be skipped (go directly to the next section [**Using the Packages**](https://github.com/danyalsaqib/torque-estimation#using-the-packages)) if you simply want to set this package up. (Most of this section is simply taken from: https://docs.ros.org/en/foxy/Tutorials/Beginner-Client-Libraries.html)
 
+## Checking if the Reachy is working correctly
+Any example for Reachy can be run to see if the robot is working correctly. If it is not, run the following commands:
+
+```
+sudo systemctl stop reachy_sdk_server.service
+```
+```
+sudo systemctl start reachy_sdk_server.service
+```
+
+Reachy should start working correctly afterwards.
+
 ### reachy_vel_acc
 Firstly, navigate to your workspace, and create a src folder. For example, if your workspace is called 'torque_ws', you can run the following commands:
 
