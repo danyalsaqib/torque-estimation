@@ -39,6 +39,29 @@ cd torque_ws
 
 ### Building the 'torque_msgs' package
 Run the following command in the 'torque_ws' directory:
+
 ```
 colcon build --packages-select tutorial_interfaces
 ```
+
+You can test whether the package was built correctly by running the following commands:
+```
+source install/setup.bash
+ros2 interface show torque_msgs/msg/ExpandedJointState
+```
+
+This command should display the details of the message type 'ExpandedJointState'
+
+### Building the 'reachy_vel_acc' package
+Run the following command in the 'torque_ws' directory:
+
+```
+colcon build --packages-select reachy_vel_acc
+```
+
+You can test whether the package was built correctly by running the following command:
+```
+ros2 interface show torque_msgs/msg/ExpandedJointState
+```
+
+This command should display the details of the message type 'ExpandedJointState'
