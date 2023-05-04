@@ -13,7 +13,6 @@ Firstly, navigate to your workspace, and create a src folder. For example, if yo
 ```
 cd torque_ws
 mkdir src
-
 ``` 
 In ROS 2, if we want to create a new python package, we use the following command:
 
