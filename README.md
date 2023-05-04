@@ -13,6 +13,8 @@ Firstly, navigate to your workspace, and create a src folder. For example, if yo
 
 ```
 cd torque_ws
+```
+```
 mkdir src
 ``` 
 In ROS 2, if we want to create a new python package, we use the following command:
@@ -47,6 +49,8 @@ colcon build --packages-select tutorial_interfaces
 You can test whether the package was built correctly by running the following commands:
 ```
 source install/setup.bash
+```
+```
 ros2 interface show torque_msgs/msg/ExpandedJointState
 ```
 
