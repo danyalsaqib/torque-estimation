@@ -29,3 +29,16 @@ To create a package for defining new message types (and service types, if requir
 ```
 ros2 pkg create --build-type ament_cmake torque_msgs
 ```
+
+## Using the Packages
+Copy the folder `ros-comms/torque_ws` to wherever you want to work with it. Then, change your working directory to 'torque_ws':
+
+```
+cd torque_ws
+```
+
+### Building the 'torque_msgs' package
+Run the following command in the 'torque_ws' directory:
+```
+colcon build --packages-select tutorial_interfaces
+```
