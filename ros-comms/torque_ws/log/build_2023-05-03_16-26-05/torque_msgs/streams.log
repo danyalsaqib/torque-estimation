@@ -1,0 +1,20 @@
+[0.016s] Invoking command in '/home/reachy/torque_ws/build/torque_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/reachy/torque_ws/install/reachy_vel_acc:/home/reachy/reachy_ws/install/reachy_sdk_server:/home/reachy/reachy_ws/install/reachy_kinematics:/home/reachy/reachy_ws/install/reachy_controllers:/home/reachy/reachy_ws/install/reachy_focus:/home/reachy/ros_ws/install/joint_state_publisher_gui:/home/reachy/ros_ws/install/joint_state_publisher:/opt/ros/foxy /usr/bin/cmake /home/reachy/torque_ws/src/torque_msgs -DCMAKE_INSTALL_PREFIX=/home/reachy/torque_ws/install/torque_msgs
+[0.033s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.092s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.323s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.409s] -- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)
+[0.430s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.434s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.552s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.597s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.665s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[0.775s] CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:162 (message):
+[0.776s]   rosidl_generate_interfaces() the passed dependency 'ament_package' has not
+[0.776s]   been found before using find_package()
+[0.776s] Call Stack (most recent call first):
+[0.776s]   CMakeLists.txt:38 (rosidl_generate_interfaces)
+[0.776s] 
+[0.776s] 
+[0.777s] -- Configuring incomplete, errors occurred!
+[0.777s] See also "/home/reachy/torque_ws/build/torque_msgs/CMakeFiles/CMakeOutput.log".
+[0.783s] Invoked command in '/home/reachy/torque_ws/build/torque_msgs' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/reachy/torque_ws/install/reachy_vel_acc:/home/reachy/reachy_ws/install/reachy_sdk_server:/home/reachy/reachy_ws/install/reachy_kinematics:/home/reachy/reachy_ws/install/reachy_controllers:/home/reachy/reachy_ws/install/reachy_focus:/home/reachy/ros_ws/install/joint_state_publisher_gui:/home/reachy/ros_ws/install/joint_state_publisher:/opt/ros/foxy /usr/bin/cmake /home/reachy/torque_ws/src/torque_msgs -DCMAKE_INSTALL_PREFIX=/home/reachy/torque_ws/install/torque_msgs

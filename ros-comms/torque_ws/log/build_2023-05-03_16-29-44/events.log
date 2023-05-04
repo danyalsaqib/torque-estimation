@@ -1,0 +1,272 @@
+[0.000000] (-) TimerEvent: {}
+[0.000131] (-) JobUnselected: {'identifier': 'reachy_vel_acc'}
+[0.000330] (torque_msgs) JobQueued: {'identifier': 'torque_msgs', 'dependencies': OrderedDict()}
+[0.000707] (torque_msgs) JobStarted: {'identifier': 'torque_msgs'}
+[0.015075] (torque_msgs) JobProgress: {'identifier': 'torque_msgs', 'progress': 'cmake'}
+[0.016203] (torque_msgs) JobProgress: {'identifier': 'torque_msgs', 'progress': 'build'}
+[0.017236] (torque_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/reachy/torque_ws/build/torque_msgs', '--', '-j8', '-l8'], 'cwd': '/home/reachy/torque_ws/build/torque_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('VIRTUALENVWRAPPER_WORKON_CD', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('WORKON_HOME', '/home/reachy/.virtualenvs'), ('USER', 'reachy'), ('LC_TIME', 'fr_FR.UTF-8'), ('SSH_AGENT_PID', '1860'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/reachy/reachy_ws/install/reachy_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/reachy'), ('VIRTUALENVWRAPPER_PYTHON', '/usr/bin/python3'), ('OLDPWD', '/home/reachy/torque_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('MANAGERPID', '1680'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5073'), ('_colcon_cd_root', '/home/reachy/ros2_install'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/reachy/torque_ws/install:/home/reachy/ros_ws/install:/home/reachy/reachy_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'reachy'), ('JOURNAL_STREAM', '8:48287'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'reachy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/reachy/ros_ws/install/xacro/bin:/opt/ros/foxy/bin:/home/reachy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/reachy:@/tmp/.ICE-unix/1898,unix/reachy:/tmp/.ICE-unix/1898'), ('INVOCATION_ID', 'f3320645518849c2831200ba71e951b3'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('PROJECT_HOME', '/home/reachy/Devel'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/reachy/torque_ws/install/reachy_vel_acc:/home/reachy/reachy_ws/install/reachy_sdk_server:/home/reachy/reachy_ws/install/reachy_kinematics:/home/reachy/reachy_ws/install/reachy_controllers:/home/reachy/reachy_ws/install/reachy_msgs:/home/reachy/reachy_ws/install/reachy_focus:/home/reachy/reachy_ws/install/reachy_description:/home/reachy/ros_ws/install/xacro:/home/reachy/ros_ws/install/joint_state_publisher_gui:/home/reachy/ros_ws/install/joint_state_publisher:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:ab7e7c31-618d-4e40-8bed-fe862f3f427e'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VIRTUALENVWRAPPER_PROJECT_FILENAME', '.project'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('VIRTUALENVWRAPPER_HOOK_DIR', '/home/reachy/.virtualenvs'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('VIRTUALENVWRAPPER_SCRIPT', '/home/reachy/.local/bin/virtualenvwrapper.sh'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/reachy/torque_ws/build/torque_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/reachy/torque_ws/install/reachy_vel_acc/lib/python3.8/site-packages:/home/reachy/reachy_ws/install/reachy_sdk_server/lib/python3.8/site-packages:/home/reachy/reachy_ws/install/reachy_kinematics/lib/python3.8/site-packages:/home/reachy/reachy_ws/install/reachy_controllers/lib/python3.8/site-packages:/home/reachy/reachy_ws/install/reachy_msgs/lib/python3.8/site-packages:/home/reachy/reachy_ws/install/reachy_focus/lib/python3.8/site-packages:/home/reachy/ros_ws/install/xacro/lib/python3.8/site-packages:/home/reachy/ros_ws/build/joint_state_publisher_gui:/home/reachy/ros_ws/install/joint_state_publisher_gui/lib/python3.8/site-packages:/home/reachy/ros_ws/build/joint_state_publisher:/home/reachy/ros_ws/install/joint_state_publisher/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/reachy/force_estimation/rbdl_setup/rbdl-build/python'), ('LC_NUMERIC', 'en_US.UTF-8'), ('REACHY_MODEL', 'full_kit_full_advanced'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/reachy/reachy_ws/install/reachy_msgs:/home/reachy/reachy_ws/install/reachy_description:/home/reachy/ros_ws/install/xacro:/home/reachy/torque_ws/install/reachy_vel_acc:/home/reachy/reachy_ws/install/reachy_sdk_server:/home/reachy/reachy_ws/install/reachy_kinematics:/home/reachy/reachy_ws/install/reachy_controllers:/home/reachy/reachy_ws/install/reachy_focus:/home/reachy/ros_ws/install/joint_state_publisher_gui:/home/reachy/ros_ws/install/joint_state_publisher:/opt/ros/foxy')]), 'shell': False}
+[0.045726] (torque_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.099770] (-) TimerEvent: {}
+[0.104825] (torque_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.105009] (torque_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.199884] (-) TimerEvent: {}
+[0.300152] (-) TimerEvent: {}
+[0.337289] (torque_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[0.400268] (-) TimerEvent: {}
+[0.423720] (torque_msgs) StdoutLine: {'line': b'-- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)\n'}
+[0.443609] (torque_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.446746] (torque_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.500408] (-) TimerEvent: {}
+[0.553325] (torque_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.596363] (torque_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[0.600507] (-) TimerEvent: {}
+[0.666341] (torque_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[0.700587] (-) TimerEvent: {}
+[0.786622] (torque_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[0.800720] (-) TimerEvent: {}
+[0.900969] (-) TimerEvent: {}
+[0.948347] (torque_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.001070] (-) TimerEvent: {}
+[1.013352] (torque_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.090449] (torque_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[1.090784] (torque_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[1.101157] (-) TimerEvent: {}
+[1.162719] (torque_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.162996] (torque_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[1.163130] (torque_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[1.201270] (-) TimerEvent: {}
+[1.208556] (torque_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.210347] (torque_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.211544] (torque_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.216821] (torque_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.269046] (torque_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[1.272469] (torque_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/reachy/torque_ws/build/torque_msgs\n'}
+[1.301395] (-) TimerEvent: {}
+[1.302012] (torque_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target torque_msgs__cpp\x1b[0m\n'}
+[1.306518] (torque_msgs) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.317706] (torque_msgs) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.401507] (-) TimerEvent: {}
+[1.501815] (-) TimerEvent: {}
+[1.602120] (-) TimerEvent: {}
+[1.686281] (torque_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target torque_msgs__rosidl_generator_c\x1b[0m\n'}
+[1.694679] (torque_msgs) StdoutLine: {'line': b'[  6%] Built target torque_msgs__cpp\n'}
+[1.702925] (-) TimerEvent: {}
+[1.703696] (torque_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/torque_msgs__rosidl_generator_c.dir/rosidl_generator_c/torque_msgs/msg/detail/expanded_joint_state__functions.c.o\x1b[0m\n'}
+[1.708934] (torque_msgs) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.710907] (torque_msgs) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.713902] (torque_msgs) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.787615] (torque_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libtorque_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[1.803301] (-) TimerEvent: {}
+[1.857838] (torque_msgs) StdoutLine: {'line': b'[ 22%] Built target torque_msgs__rosidl_generator_c\n'}
+[1.878836] (torque_msgs) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.882920] (torque_msgs) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.903668] (-) TimerEvent: {}
+[2.004053] (-) TimerEvent: {}
+[2.105109] (-) TimerEvent: {}
+[2.191854] (torque_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target torque_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[2.205218] (-) TimerEvent: {}
+[2.218389] (torque_msgs) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/torque_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/torque_msgs/msg/expanded_joint_state__type_support.cpp.o\x1b[0m\n'}
+[2.243549] (torque_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target torque_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[2.262051] (torque_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target torque_msgs__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[2.271611] (torque_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/torque_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/torque_msgs/msg/detail/dds_fastrtps/expanded_joint_state__type_support.cpp.o\x1b[0m\n'}
+[2.290616] (torque_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/torque_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/torque_msgs/msg/detail/expanded_joint_state__type_support.cpp.o\x1b[0m\n'}
+[2.305336] (-) TimerEvent: {}
+[2.405876] (-) TimerEvent: {}
+[2.424252] (torque_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target torque_msgs__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[2.435522] (torque_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target torque_msgs__rosidl_typesupport_c\x1b[0m\n'}
+[2.446542] (torque_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding C object CMakeFiles/torque_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/torque_msgs/msg/detail/expanded_joint_state__type_support.c.o\x1b[0m\n'}
+[2.455679] (torque_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/torque_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/torque_msgs/msg/expanded_joint_state__type_support.cpp.o\x1b[0m\n'}
+[2.505966] (-) TimerEvent: {}
+[2.509178] (torque_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libtorque_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[2.512192] (torque_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking C shared library libtorque_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[2.568609] (torque_msgs) StdoutLine: {'line': b'[ 51%] Built target torque_msgs__rosidl_typesupport_introspection_c\n'}
+[2.579169] (torque_msgs) StdoutLine: {'line': b'[ 51%] Built target torque_msgs__rosidl_typesupport_c\n'}
+[2.606062] (-) TimerEvent: {}
+[2.706468] (-) TimerEvent: {}
+[2.715084] (torque_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libtorque_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[2.774473] (torque_msgs) StdoutLine: {'line': b'[ 54%] Built target torque_msgs__rosidl_typesupport_cpp\n'}
+[2.806569] (-) TimerEvent: {}
+[2.906892] (-) TimerEvent: {}
+[2.918556] (torque_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libtorque_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[3.007031] (-) TimerEvent: {}
+[3.046977] (torque_msgs) StdoutLine: {'line': b'[ 58%] Built target torque_msgs__rosidl_typesupport_introspection_cpp\n'}
+[3.107202] (-) TimerEvent: {}
+[3.198385] (torque_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libtorque_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[3.207329] (-) TimerEvent: {}
+[3.307628] (-) TimerEvent: {}
+[3.340128] (torque_msgs) StdoutLine: {'line': b'[ 61%] Built target torque_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[3.354024] (torque_msgs) StdoutLine: {'line': b'[ 64%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.407713] (-) TimerEvent: {}
+[3.507981] (-) TimerEvent: {}
+[3.608322] (-) TimerEvent: {}
+[3.638731] (torque_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target torque_msgs__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[3.651584] (torque_msgs) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/torque_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/torque_msgs/msg/detail/expanded_joint_state__type_support_c.cpp.o\x1b[0m\n'}
+[3.708431] (-) TimerEvent: {}
+[3.808698] (-) TimerEvent: {}
+[3.909023] (-) TimerEvent: {}
+[3.988204] (torque_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libtorque_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[4.009124] (-) TimerEvent: {}
+[4.085153] (torque_msgs) StdoutLine: {'line': b'[ 70%] Built target torque_msgs__rosidl_typesupport_fastrtps_c\n'}
+[4.105426] (torque_msgs) StdoutLine: {'line': b'[ 70%] Built target torque_msgs\n'}
+[4.109208] (-) TimerEvent: {}
+[4.115483] (torque_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target torque_msgs__py\x1b[0m\n'}
+[4.126071] (torque_msgs) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[4.209290] (-) TimerEvent: {}
+[4.309557] (-) TimerEvent: {}
+[4.409856] (-) TimerEvent: {}
+[4.510148] (-) TimerEvent: {}
+[4.610391] (-) TimerEvent: {}
+[4.631065] (torque_msgs) StdoutLine: {'line': b'[ 74%] Built target torque_msgs__py\n'}
+[4.643417] (torque_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target torque_msgs__python\x1b[0m\n'}
+[4.658727] (torque_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/torque_msgs__python.dir/rosidl_generator_py/torque_msgs/msg/_expanded_joint_state_s.c.o\x1b[0m\n'}
+[4.710480] (-) TimerEvent: {}
+[4.781069] (torque_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/torque_msgs/libtorque_msgs__python.so\x1b[0m\n'}
+[4.810622] (-) TimerEvent: {}
+[4.838365] (torque_msgs) StdoutLine: {'line': b'[ 80%] Built target torque_msgs__python\n'}
+[4.852926] (torque_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target torque_msgs__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[4.853288] (torque_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target torque_msgs__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[4.854860] (torque_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target torque_msgs__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[4.874120] (torque_msgs) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/torque_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/torque_msgs/_torque_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[4.878716] (torque_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/torque_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/torque_msgs/_torque_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[4.884210] (torque_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/torque_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/torque_msgs/_torque_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[4.910736] (-) TimerEvent: {}
+[4.972477] (torque_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/torque_msgs/torque_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.997035] (torque_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/torque_msgs/torque_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.010845] (-) TimerEvent: {}
+[5.016675] (torque_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/torque_msgs/torque_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.024495] (torque_msgs) StdoutLine: {'line': b'[100%] Built target torque_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[5.036497] (torque_msgs) StdoutLine: {'line': b'[100%] Built target torque_msgs__rosidl_typesupport_c__pyext\n'}
+[5.083840] (torque_msgs) StdoutLine: {'line': b'[100%] Built target torque_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[5.094563] (torque_msgs) CommandEnded: {'returncode': 0}
+[5.111006] (-) TimerEvent: {}
+[5.134205] (torque_msgs) JobProgress: {'identifier': 'torque_msgs', 'progress': 'install'}
+[5.145669] (torque_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/reachy/torque_ws/build/torque_msgs'], 'cwd': '/home/reachy/torque_ws/build/torque_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('VIRTUALENVWRAPPER_WORKON_CD', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('WORKON_HOME', '/home/reachy/.virtualenvs'), ('USER', 'reachy'), ('LC_TIME', 'fr_FR.UTF-8'), ('SSH_AGENT_PID', '1860'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/reachy/reachy_ws/install/reachy_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/reachy'), ('VIRTUALENVWRAPPER_PYTHON', '/usr/bin/python3'), ('OLDPWD', '/home/reachy/torque_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('MANAGERPID', '1680'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5073'), ('_colcon_cd_root', '/home/reachy/ros2_install'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/reachy/torque_ws/install:/home/reachy/ros_ws/install:/home/reachy/reachy_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'reachy'), ('JOURNAL_STREAM', '8:48287'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'reachy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/reachy/ros_ws/install/xacro/bin:/opt/ros/foxy/bin:/home/reachy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/reachy:@/tmp/.ICE-unix/1898,unix/reachy:/tmp/.ICE-unix/1898'), ('INVOCATION_ID', 'f3320645518849c2831200ba71e951b3'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('PROJECT_HOME', '/home/reachy/Devel'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/reachy/torque_ws/install/reachy_vel_acc:/home/reachy/reachy_ws/install/reachy_sdk_server:/home/reachy/reachy_ws/install/reachy_kinematics:/home/reachy/reachy_ws/install/reachy_controllers:/home/reachy/reachy_ws/install/reachy_msgs:/home/reachy/reachy_ws/install/reachy_focus:/home/reachy/reachy_ws/install/reachy_description:/home/reachy/ros_ws/install/xacro:/home/reachy/ros_ws/install/joint_state_publisher_gui:/home/reachy/ros_ws/install/joint_state_publisher:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:ab7e7c31-618d-4e40-8bed-fe862f3f427e'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VIRTUALENVWRAPPER_PROJECT_FILENAME', '.project'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('VIRTUALENVWRAPPER_HOOK_DIR', '/home/reachy/.virtualenvs'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('VIRTUALENVWRAPPER_SCRIPT', '/home/reachy/.local/bin/virtualenvwrapper.sh'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/reachy/torque_ws/build/torque_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/reachy/torque_ws/install/reachy_vel_acc/lib/python3.8/site-packages:/home/reachy/reachy_ws/install/reachy_sdk_server/lib/python3.8/site-packages:/home/reachy/reachy_ws/install/reachy_kinematics/lib/python3.8/site-packages:/home/reachy/reachy_ws/install/reachy_controllers/lib/python3.8/site-packages:/home/reachy/reachy_ws/install/reachy_msgs/lib/python3.8/site-packages:/home/reachy/reachy_ws/install/reachy_focus/lib/python3.8/site-packages:/home/reachy/ros_ws/install/xacro/lib/python3.8/site-packages:/home/reachy/ros_ws/build/joint_state_publisher_gui:/home/reachy/ros_ws/install/joint_state_publisher_gui/lib/python3.8/site-packages:/home/reachy/ros_ws/build/joint_state_publisher:/home/reachy/ros_ws/install/joint_state_publisher/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/reachy/force_estimation/rbdl_setup/rbdl-build/python'), ('LC_NUMERIC', 'en_US.UTF-8'), ('REACHY_MODEL', 'full_kit_full_advanced'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/reachy/reachy_ws/install/reachy_msgs:/home/reachy/reachy_ws/install/reachy_description:/home/reachy/ros_ws/install/xacro:/home/reachy/torque_ws/install/reachy_vel_acc:/home/reachy/reachy_ws/install/reachy_sdk_server:/home/reachy/reachy_ws/install/reachy_kinematics:/home/reachy/reachy_ws/install/reachy_controllers:/home/reachy/reachy_ws/install/reachy_focus:/home/reachy/ros_ws/install/joint_state_publisher_gui:/home/reachy/ros_ws/install/joint_state_publisher:/opt/ros/foxy')]), 'shell': False}
+[5.154653] (torque_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.154948] (torque_msgs) StdoutLine: {'line': b'-- Installing: /home/reachy/torque_ws/install/torque_msgs/share/ament_index/resource_index/rosidl_interfaces/torque_msgs\n'}
+[5.155207] (torque_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/reachy/torque_ws/install/torque_msgs/include/torque_msgs\n'}
+[5.155361] (torque_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/reachy/torque_ws/install/torque_msgs/include/torque_msgs/msg\n'}
+[5.155538] (torque_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/reachy/torque_ws/install/torque_msgs/include/torque_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[5.155657] (torque_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/reachy/torque_ws/install/torque_msgs/include/torque_msgs/msg/expanded_joint_states.h\n'}
+[5.155759] (torque_msgs) StdoutLine: {'line': b'-- Installing: /home/reachy/torque_ws/install/torque_msgs/include/torque_msgs/msg/expanded_joint_state.h\n'}
+[5.155860] (torque_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/reachy/torque_ws/install/torque_msgs/include/torque_msgs/msg/detail\n'}
+[5.155975] (torque_msgs) StdoutLine: {'line': b'-- Installing: /home/reachy/torque_ws/install/torque_msgs/include/torque_msgs/msg/detail/expanded_joint_state__struct.h\n'}
+[5.156097] (torque_msgs) StdoutLine: {'line': b'-- Installing: /home/reachy/torque_ws/install/torque_msgs/include/torque_msgs/msg/detail/expanded_joint_state__functions.c\n'}
+[5.156206] (torque_msgs) StdoutLine: {'line': b'-- Installing: /home/reachy/torque_ws/install/torque_msgs/include/torque_msgs/msg/detail/expanded_joint_state__functions.h\n'}
+[5.156315] (torque_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/reachy/torque_ws/install/torque_msgs/include/torque_msgs/msg/detail/expanded_joint_states__type_support.h\n'}
+[5.156443] (torque_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/reachy/torque_ws/install/torque_msgs/include/torque_msgs/msg/detail/expanded_joint_states__functions.h\n'}
+[5.156670] (torque_msgs) StdoutLine: {'line': b'-- Installing: /home/reachy/torque_ws/install/torque_msgs/include/torque_msgs/msg/detail/expanded_joint_state__type_support.h\n'}
+[5.156784] (torque_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/reachy/torque_ws/install/torque_msgs/include/torque_msgs/msg/detail/expanded_joint_states__struct.h\n'}
+[5.156894] (torque_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/reachy/torque_ws/install/torque_msgs/include/torque_msgs/msg/detail/expanded_joint_states__functions.c\n'}
+[5.157013] (torque_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/reachy/torque_ws/install/torque_msgs/share/torque_msgs/environment/library_path.sh\n'}
+[5.157115] (torque_msgs) StdoutLine: {'line': b'-- Installing: /home/reachy/torque_ws/install/torque_msgs/share/torque_msgs/environment/library_path.dsv\n'}
+[5.157213] (torque_msgs) StdoutLine: {'line': b'-- Installing: /home/reachy/torque_ws/install/torque_msgs/lib/libtorque_msgs__rosidl_generator_c.so\n'}
+[5.157318] (torque_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/reachy/torque_ws/install/torque_msgs/lib/libtorque_msgs__rosidl_generator_c.so" to ""\n'}
+[5.157416] (torque_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/reachy/torque_ws/install/torque_msgs/include/torque_msgs\n'}
+[5.157513] (torque_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/reachy/torque_ws/install/torque_msgs/include/torque_msgs/msg\n'}
+[5.157609] (torque_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/reachy/torque_ws/install/torque_msgs/include/torque_msgs/msg/detail\n'}
+[5.157712] (torque_msgs) StdoutLine: {'line': b'-- Installing: /home/reachy/torque_ws/install/torque_msgs/include/torque_msgs/msg/detail/expanded_joint_state__rosidl_typesupport_fastrtps_c.h\n'}
+[5.157810] (torque_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/reachy/torque_ws/install/torque_msgs/include/torque_msgs/msg/detail/expanded_joint_states__rosidl_typesupport_fastrtps_c.h\n'}
+[5.157907] (torque_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/reachy/torque_ws/install/torque_msgs/include/torque_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[5.158166] (torque_msgs) StdoutLine: {'line': b'-- Installing: /home/reachy/torque_ws/install/torque_msgs/lib/libtorque_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[5.158361] (torque_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/reachy/torque_ws/install/torque_msgs/lib/libtorque_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[5.158501] (torque_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/reachy/torque_ws/install/torque_msgs/include/torque_msgs\n'}
+[5.158629] (torque_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/reachy/torque_ws/install/torque_msgs/include/torque_msgs/msg\n'}
+[5.158732] (torque_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/reachy/torque_ws/install/torque_msgs/include/torque_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[5.158854] (torque_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/reachy/torque_ws/install/torque_msgs/include/torque_msgs/msg/detail\n'}
+[5.158997] (torque_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/reachy/torque_ws/install/torque_msgs/include/torque_msgs/msg/detail/dds_fastrtps\n'}
+[5.159137] (torque_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/reachy/torque_ws/install/torque_msgs/include/torque_msgs/msg/detail/expanded_joint_states__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.159246] (torque_msgs) StdoutLine: {'line': b'-- Installing: /home/reachy/torque_ws/install/torque_msgs/include/torque_msgs/msg/detail/expanded_joint_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.159457] (torque_msgs) StdoutLine: {'line': b'-- Installing: /home/reachy/torque_ws/install/torque_msgs/lib/libtorque_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[5.159659] (torque_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/reachy/torque_ws/install/torque_msgs/lib/libtorque_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[5.159891] (torque_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/reachy/torque_ws/install/torque_msgs/include/torque_msgs\n'}
+[5.160072] (torque_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/reachy/torque_ws/install/torque_msgs/include/torque_msgs/msg\n'}
+[5.160215] (torque_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/reachy/torque_ws/install/torque_msgs/include/torque_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[5.160350] (torque_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/reachy/torque_ws/install/torque_msgs/include/torque_msgs/msg/detail\n'}
+[5.160446] (torque_msgs) StdoutLine: {'line': b'-- Installing: /home/reachy/torque_ws/install/torque_msgs/include/torque_msgs/msg/detail/expanded_joint_state__type_support.c\n'}
+[5.160616] (torque_msgs) StdoutLine: {'line': b'-- Installing: /home/reachy/torque_ws/install/torque_msgs/include/torque_msgs/msg/detail/expanded_joint_state__rosidl_typesupport_introspection_c.h\n'}
+[5.160770] (torque_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/reachy/torque_ws/install/torque_msgs/include/torque_msgs/msg/detail/expanded_joint_states__rosidl_typesupport_introspection_c.h\n'}
+[5.160923] (torque_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/reachy/torque_ws/install/torque_msgs/include/torque_msgs/msg/detail/expanded_joint_states__type_support.c\n'}
+[5.161052] (torque_msgs) StdoutLine: {'line': b'-- Installing: /home/reachy/torque_ws/install/torque_msgs/lib/libtorque_msgs__rosidl_typesupport_introspection_c.so\n'}
+[5.161357] (torque_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/reachy/torque_ws/install/torque_msgs/lib/libtorque_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[5.161535] (torque_msgs) StdoutLine: {'line': b'-- Installing: /home/reachy/torque_ws/install/torque_msgs/lib/libtorque_msgs__rosidl_typesupport_c.so\n'}
+[5.161727] (torque_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/reachy/torque_ws/install/torque_msgs/lib/libtorque_msgs__rosidl_typesupport_c.so" to ""\n'}
+[5.162125] (torque_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/reachy/torque_ws/install/torque_msgs/include/torque_msgs\n'}
+[5.162266] (torque_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/reachy/torque_ws/install/torque_msgs/include/torque_msgs/msg\n'}
+[5.162382] (torque_msgs) StdoutLine: {'line': b'-- Installing: /home/reachy/torque_ws/install/torque_msgs/include/torque_msgs/msg/expanded_joint_state.hpp\n'}
+[5.162489] (torque_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/reachy/torque_ws/install/torque_msgs/include/torque_msgs/msg/detail\n'}
+[5.162607] (torque_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/reachy/torque_ws/install/torque_msgs/include/torque_msgs/msg/detail/expanded_joint_states__struct.hpp\n'}
+[5.162714] (torque_msgs) StdoutLine: {'line': b'-- Installing: /home/reachy/torque_ws/install/torque_msgs/include/torque_msgs/msg/detail/expanded_joint_state__struct.hpp\n'}
+[5.162831] (torque_msgs) StdoutLine: {'line': b'-- Installing: /home/reachy/torque_ws/install/torque_msgs/include/torque_msgs/msg/detail/expanded_joint_state__builder.hpp\n'}
+[5.162953] (torque_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/reachy/torque_ws/install/torque_msgs/include/torque_msgs/msg/detail/expanded_joint_states__traits.hpp\n'}
+[5.163073] (torque_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/reachy/torque_ws/install/torque_msgs/include/torque_msgs/msg/detail/expanded_joint_states__builder.hpp\n'}
+[5.163171] (torque_msgs) StdoutLine: {'line': b'-- Installing: /home/reachy/torque_ws/install/torque_msgs/include/torque_msgs/msg/detail/expanded_joint_state__traits.hpp\n'}
+[5.163269] (torque_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/reachy/torque_ws/install/torque_msgs/include/torque_msgs/msg/expanded_joint_states.hpp\n'}
+[5.163370] (torque_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/reachy/torque_ws/install/torque_msgs/include/torque_msgs\n'}
+[5.163466] (torque_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/reachy/torque_ws/install/torque_msgs/include/torque_msgs/msg\n'}
+[5.163563] (torque_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/reachy/torque_ws/install/torque_msgs/include/torque_msgs/msg/detail\n'}
+[5.163659] (torque_msgs) StdoutLine: {'line': b'-- Installing: /home/reachy/torque_ws/install/torque_msgs/include/torque_msgs/msg/detail/expanded_joint_state__type_support.cpp\n'}
+[5.163756] (torque_msgs) StdoutLine: {'line': b'-- Installing: /home/reachy/torque_ws/install/torque_msgs/include/torque_msgs/msg/detail/expanded_joint_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.163854] (torque_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/reachy/torque_ws/install/torque_msgs/include/torque_msgs/msg/detail/expanded_joint_states__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.163964] (torque_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/reachy/torque_ws/install/torque_msgs/include/torque_msgs/msg/detail/expanded_joint_states__type_support.cpp\n'}
+[5.164076] (torque_msgs) StdoutLine: {'line': b'-- Installing: /home/reachy/torque_ws/install/torque_msgs/lib/libtorque_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[5.164180] (torque_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/reachy/torque_ws/install/torque_msgs/lib/libtorque_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[5.164286] (torque_msgs) StdoutLine: {'line': b'-- Installing: /home/reachy/torque_ws/install/torque_msgs/lib/libtorque_msgs__rosidl_typesupport_cpp.so\n'}
+[5.164392] (torque_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/reachy/torque_ws/install/torque_msgs/lib/libtorque_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[5.164511] (torque_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/reachy/torque_ws/install/torque_msgs/share/torque_msgs/environment/pythonpath.sh\n'}
+[5.164631] (torque_msgs) StdoutLine: {'line': b'-- Installing: /home/reachy/torque_ws/install/torque_msgs/share/torque_msgs/environment/pythonpath.dsv\n'}
+[5.164732] (torque_msgs) StdoutLine: {'line': b'-- Installing: /home/reachy/torque_ws/install/torque_msgs/lib/python3.8/site-packages/torque_msgs/__init__.py\n'}
+[5.211043] (-) TimerEvent: {}
+[5.225701] (torque_msgs) StdoutLine: {'line': b"Compiling '/home/reachy/torque_ws/install/torque_msgs/lib/python3.8/site-packages/torque_msgs/__init__.py'...\n"}
+[5.234246] (torque_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/reachy/torque_ws/install/torque_msgs/lib/python3.8/site-packages/torque_msgs/msg\n'}
+[5.234485] (torque_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/reachy/torque_ws/install/torque_msgs/lib/python3.8/site-packages/torque_msgs/msg/_expanded_joint_states.py\n'}
+[5.234605] (torque_msgs) StdoutLine: {'line': b'-- Installing: /home/reachy/torque_ws/install/torque_msgs/lib/python3.8/site-packages/torque_msgs/msg/_expanded_joint_state_s.c\n'}
+[5.234676] (torque_msgs) StdoutLine: {'line': b'-- Installing: /home/reachy/torque_ws/install/torque_msgs/lib/python3.8/site-packages/torque_msgs/msg/__init__.py\n'}
+[5.234742] (torque_msgs) StdoutLine: {'line': b'-- Installing: /home/reachy/torque_ws/install/torque_msgs/lib/python3.8/site-packages/torque_msgs/msg/_expanded_joint_state.py\n'}
+[5.234812] (torque_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/reachy/torque_ws/install/torque_msgs/lib/python3.8/site-packages/torque_msgs/msg/_expanded_joint_states_s.c\n'}
+[5.234902] (torque_msgs) StdoutLine: {'line': b'-- Installing: /home/reachy/torque_ws/install/torque_msgs/lib/python3.8/site-packages/torque_msgs/torque_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[5.235236] (torque_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/reachy/torque_ws/install/torque_msgs/lib/python3.8/site-packages/torque_msgs/torque_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[5.235539] (torque_msgs) StdoutLine: {'line': b'-- Installing: /home/reachy/torque_ws/install/torque_msgs/lib/python3.8/site-packages/torque_msgs/torque_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[5.235941] (torque_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/reachy/torque_ws/install/torque_msgs/lib/python3.8/site-packages/torque_msgs/torque_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[5.236260] (torque_msgs) StdoutLine: {'line': b'-- Installing: /home/reachy/torque_ws/install/torque_msgs/lib/python3.8/site-packages/torque_msgs/torque_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[5.236614] (torque_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/reachy/torque_ws/install/torque_msgs/lib/python3.8/site-packages/torque_msgs/torque_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[5.236764] (torque_msgs) StdoutLine: {'line': b'-- Installing: /home/reachy/torque_ws/install/torque_msgs/lib/libtorque_msgs__python.so\n'}
+[5.237026] (torque_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/reachy/torque_ws/install/torque_msgs/lib/libtorque_msgs__python.so" to ""\n'}
+[5.237156] (torque_msgs) StdoutLine: {'line': b'-- Installing: /home/reachy/torque_ws/install/torque_msgs/share/torque_msgs/msg/ExpandedJointState.idl\n'}
+[5.237259] (torque_msgs) StdoutLine: {'line': b'-- Installing: /home/reachy/torque_ws/install/torque_msgs/share/torque_msgs/msg/ExpandedJointState.msg\n'}
+[5.237361] (torque_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/reachy/torque_ws/install/torque_msgs/share/ament_index/resource_index/package_run_dependencies/torque_msgs\n'}
+[5.237447] (torque_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/reachy/torque_ws/install/torque_msgs/share/ament_index/resource_index/parent_prefix_path/torque_msgs\n'}
+[5.237545] (torque_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/reachy/torque_ws/install/torque_msgs/share/torque_msgs/environment/ament_prefix_path.sh\n'}
+[5.237627] (torque_msgs) StdoutLine: {'line': b'-- Installing: /home/reachy/torque_ws/install/torque_msgs/share/torque_msgs/environment/ament_prefix_path.dsv\n'}
+[5.237747] (torque_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/reachy/torque_ws/install/torque_msgs/share/torque_msgs/environment/path.sh\n'}
+[5.237834] (torque_msgs) StdoutLine: {'line': b'-- Installing: /home/reachy/torque_ws/install/torque_msgs/share/torque_msgs/environment/path.dsv\n'}
+[5.237946] (torque_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/reachy/torque_ws/install/torque_msgs/share/torque_msgs/local_setup.bash\n'}
+[5.238051] (torque_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/reachy/torque_ws/install/torque_msgs/share/torque_msgs/local_setup.sh\n'}
+[5.238156] (torque_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/reachy/torque_ws/install/torque_msgs/share/torque_msgs/local_setup.zsh\n'}
+[5.238226] (torque_msgs) StdoutLine: {'line': b'-- Installing: /home/reachy/torque_ws/install/torque_msgs/share/torque_msgs/local_setup.dsv\n'}
+[5.238307] (torque_msgs) StdoutLine: {'line': b'-- Installing: /home/reachy/torque_ws/install/torque_msgs/share/torque_msgs/package.dsv\n'}
+[5.238454] (torque_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/reachy/torque_ws/install/torque_msgs/share/ament_index/resource_index/packages/torque_msgs\n'}
+[5.238614] (torque_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/reachy/torque_ws/install/torque_msgs/share/torque_msgs/cmake/torque_msgs__rosidl_generator_cExport.cmake\n'}
+[5.238694] (torque_msgs) StdoutLine: {'line': b'-- Installing: /home/reachy/torque_ws/install/torque_msgs/share/torque_msgs/cmake/torque_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[5.238978] (torque_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/reachy/torque_ws/install/torque_msgs/share/torque_msgs/cmake/torque_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[5.239060] (torque_msgs) StdoutLine: {'line': b'-- Installing: /home/reachy/torque_ws/install/torque_msgs/share/torque_msgs/cmake/torque_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[5.239307] (torque_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/reachy/torque_ws/install/torque_msgs/share/torque_msgs/cmake/torque_msgs__rosidl_typesupport_cExport.cmake\n'}
+[5.239419] (torque_msgs) StdoutLine: {'line': b'-- Installing: /home/reachy/torque_ws/install/torque_msgs/share/torque_msgs/cmake/torque_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[5.239628] (torque_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/reachy/torque_ws/install/torque_msgs/share/torque_msgs/cmake/torque_msgs__rosidl_generator_cppExport.cmake\n'}
+[5.239800] (torque_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/reachy/torque_ws/install/torque_msgs/share/torque_msgs/cmake/torque_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[5.239901] (torque_msgs) StdoutLine: {'line': b'-- Installing: /home/reachy/torque_ws/install/torque_msgs/share/torque_msgs/cmake/torque_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[5.240121] (torque_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/reachy/torque_ws/install/torque_msgs/share/torque_msgs/cmake/torque_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[5.240232] (torque_msgs) StdoutLine: {'line': b'-- Installing: /home/reachy/torque_ws/install/torque_msgs/share/torque_msgs/cmake/torque_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[5.240350] (torque_msgs) StdoutLine: {'line': b'-- Installing: /home/reachy/torque_ws/install/torque_msgs/share/torque_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[5.240504] (torque_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/reachy/torque_ws/install/torque_msgs/share/torque_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[5.240620] (torque_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/reachy/torque_ws/install/torque_msgs/share/torque_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[5.240763] (torque_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/reachy/torque_ws/install/torque_msgs/share/torque_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[5.240874] (torque_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/reachy/torque_ws/install/torque_msgs/share/torque_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[5.241031] (torque_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/reachy/torque_ws/install/torque_msgs/share/torque_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[5.241131] (torque_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/reachy/torque_ws/install/torque_msgs/share/torque_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[5.241237] (torque_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/reachy/torque_ws/install/torque_msgs/share/torque_msgs/cmake/torque_msgsConfig.cmake\n'}
+[5.241343] (torque_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/reachy/torque_ws/install/torque_msgs/share/torque_msgs/cmake/torque_msgsConfig-version.cmake\n'}
+[5.241455] (torque_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/reachy/torque_ws/install/torque_msgs/share/torque_msgs/package.xml\n'}
+[5.243069] (torque_msgs) CommandEnded: {'returncode': 0}
+[5.311170] (-) TimerEvent: {}
+[5.331640] (torque_msgs) JobEnded: {'identifier': 'torque_msgs', 'rc': 0}
+[5.332712] (-) EventReactorShutdown: {}

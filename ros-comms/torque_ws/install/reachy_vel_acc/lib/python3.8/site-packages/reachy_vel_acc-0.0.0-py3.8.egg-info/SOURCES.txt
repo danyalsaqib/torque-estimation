@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/reachy_vel_acc/reachy_vel_acc.egg-info/PKG-INFO
+../../build/reachy_vel_acc/reachy_vel_acc.egg-info/SOURCES.txt
+../../build/reachy_vel_acc/reachy_vel_acc.egg-info/dependency_links.txt
+../../build/reachy_vel_acc/reachy_vel_acc.egg-info/entry_points.txt
+../../build/reachy_vel_acc/reachy_vel_acc.egg-info/requires.txt
+../../build/reachy_vel_acc/reachy_vel_acc.egg-info/top_level.txt
+../../build/reachy_vel_acc/reachy_vel_acc.egg-info/zip-safe
+reachy_vel_acc/__init__.py
+reachy_vel_acc/pub_vel_acc.py
+resource/reachy_vel_acc
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

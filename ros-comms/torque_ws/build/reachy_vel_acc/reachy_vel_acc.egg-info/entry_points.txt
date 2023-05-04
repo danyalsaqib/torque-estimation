@@ -1,0 +1,3 @@
+[console_scripts]
+vel_acc = reachy_vel_acc.pub_vel_acc:main
+

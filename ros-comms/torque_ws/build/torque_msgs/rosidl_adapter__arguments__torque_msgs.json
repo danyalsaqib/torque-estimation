@@ -1,0 +1,6 @@
+{
+  "package_name": "torque_msgs",
+  "non_idl_tuples": [
+    "/home/reachy/torque_ws/src/torque_msgs:msg/ExpandedJointState.msg"
+  ]
+}
