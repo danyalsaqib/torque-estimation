@@ -43,10 +43,14 @@ cd torque_ws
 Run the following command in the 'torque_ws' directory:
 
 ```
+rosdep install -i --from-path src --rosdistro foxy -y
+```
+```
 colcon build --packages-select tutorial_interfaces
 ```
 
 You can test whether the package was built correctly by running the following commands:
+
 ```
 source install/setup.bash
 ```
@@ -60,12 +64,35 @@ This command should display the details of the message type 'ExpandedJointState'
 Run the following command in the 'torque_ws' directory:
 
 ```
+rosdep install -i --from-path src --rosdistro foxy -y
+```
+```
 colcon build --packages-select reachy_vel_acc
 ```
 
 You can test whether the package was built correctly by running the following command:
+
 ```
-ros2 interface show torque_msgs/msg/ExpandedJointState
+source install/setup.bash
+```
+```
+ros2 run reachy_vel_acc pub_vel_acc
 ```
 
-This command should display the details of the message type 'ExpandedJointState'
+This node, if it runs without errors, should start publishing to the 'expanded_joint_states'. You can check the output of this topic by running the following commands in a new terminal:
+
+```
+cd torque_ws
+```
+```
+source install/setup.bash
+```
+```
+ros2 topic list
+```
+
+The ROS 2 topic list should have the 'expanded_joint_states' topic listed. You can run the following command to see the data being published to this topic:
+
+```
+ros2 topic echo /expanded_joint_states
+```
