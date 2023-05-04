@@ -58,7 +58,7 @@ Run the following command in the 'torque_ws' directory:
 rosdep install -i --from-path src --rosdistro foxy -y
 ```
 ```
-colcon build --packages-select tutorial_interfaces
+colcon build --packages-select torque_msgs
 ```
 
 You can test whether the package was built correctly by running the following commands:
