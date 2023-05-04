@@ -10,14 +10,19 @@ This is just additional information regarding ROS 2, and the setup beforehand fo
 
 Firstly, navigate to your workspace, and create a src folder. For example, if your workspace is called 'torque_ws', you can run the following commands:
 
-```cd torque_ws
+```
+cd torque_ws
 mkdir src
 
 ``` 
 In ROS 2, if we want to create a new python package, we use the following command:
 
-```ros2 pkg create --build-type ament_python reachy_vel_acc```
+```
+ros2 pkg create --build-type ament_python reachy_vel_acc
+```
 
 However, to create a package for defining new message types (and service types, if required), you need to create a C++ package exclusively:
 
-```ros2 pkg create --build-type ament_cmake torque_msgs```
+```
+ros2 pkg create --build-type ament_cmake torque_msgs
+```
