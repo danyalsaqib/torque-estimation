@@ -96,3 +96,9 @@ The ROS 2 topic list should have the 'expanded_joint_states' topic listed. You c
 ```
 ros2 topic echo /expanded_joint_states
 ```
+
+## Future Directions
+1. Currently, the position information is quite noisy, and fluctuates quite a bit. This is causing the velocity and acceleration to be quite noisy as well. Implement some sort of a smoothing filter to smooth the position information (Moving Average / Low Pass).
+2. Incorporate the dynamic equation to get an estimate of the torque (or perceived torque).
+3. Finally, move on to obtaining the actual power dissipated within the motors to get a measure of the true motor torques.
+4. The difference between perceived torque and actual motor torques should give us an estimate of the applied torques.
