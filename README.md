@@ -8,6 +8,7 @@ So far, I have developed two packages within the workspace. The first one, 'torq
 ## The Setup
 This is just additional information regarding ROS 2, and the setup beforehand for this package. This part should be skipped if you simply want to set this package up.
 
+### reachy_vel_acc
 Firstly, navigate to your workspace, and create a src folder. For example, if your workspace is called 'torque_ws', you can run the following commands:
 
 ```
@@ -20,7 +21,10 @@ In ROS 2, if we want to create a new python package, we use the following comman
 ros2 pkg create --build-type ament_python reachy_vel_acc
 ```
 
-However, to create a package for defining new message types (and service types, if required), you need to create a C++ package exclusively:
+For the python package, once the code has been written, make sure that you have also modified the 'setup.py', 'setup.cfg', and 'package.xml'.
+
+### torque_msgs
+To create a package for defining new message types (and service types, if required), you need to create a C++ package exclusively. This is regardless of whether you intend to use them with Python or C++:
 
 ```
 ros2 pkg create --build-type ament_cmake torque_msgs
